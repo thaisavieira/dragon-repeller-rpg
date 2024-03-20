@@ -1,0 +1,10 @@
+:root{
+    --main-dark-color:#0a0a23;
+    --main-light-color: #ffffff;
+    --accent-dark-color:#feac32;
+    --accent-light-color:#fecc4c;
+    --accent-contrast:#ffac33;
+    --health-bar-color:#c70d0d;
+    --title-font:"Metal Mania", system-ui;
+    --body-font: "Volkhov", serif;
+}
