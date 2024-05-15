@@ -1,7 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
 body{
-    background-color: var(--main-dark-color);
-    color: var(--main-dark-color);
-    font-size: 18px;
+    background-color: green;
+    font-size: 1.8rem;
 }
 
 main{
@@ -15,13 +24,19 @@ main{
 
 #game{
     width: 100%;
-    max-width: 700px;
+    max-width: 70rem;
+    padding: 1rem;
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
     justify-content:center;
-
-
 }
+
+#text{
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    padding: 1rem;
+}
+
 
 #stats,
 #controls {
@@ -40,6 +55,7 @@ button{
     padding: 0.5rem;
     color: var(--main-light-color);
     background-color: var(--health-bar-color);
+    padding: 0.5rem;
 }
 
 .stat{
@@ -51,10 +67,5 @@ button{
     color: var(--main-dark-color);
     background-color: var(--accent-dark-color);
     background-image: linear-gradient(--accent-light-color,--accent-contrast);
-    border: 0.3rem solid var(--accent-dark-color);
-}
-
-#text{
-    color: var(--main-light-color);
-    padding: 0.5rem;
+    border: 1rem solid var(--accent-dark-color);
 }
